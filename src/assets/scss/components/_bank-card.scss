@@ -1,0 +1,66 @@
+.card-item {
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  margin: 0 -11px 16px;
+
+  &:hover {
+    background-color: var(--light-grey);
+    cursor: pointer;
+    .card-item__image {
+      img {
+        transform: scale(1.02);
+      }
+    }
+  }
+  &__details {
+    width: calc(100% - 312px);
+    padding-left: 48px;
+    .el-tag {
+      margin-top: 4px;
+    }
+    @media (max-width: $fullhd) {
+      padding-left: 40px;
+    }
+  }
+  &__image {
+    box-shadow: $shadow-2;
+    border-radius: 15px;
+    max-width: 312px;
+    @media (max-width: $fullhd) {
+      max-width: 285px;
+    }
+    img {
+      transition: all 0.2s ease;
+      width: 100%;
+    }
+  }
+}
+.card-name {
+  margin-bottom: 52px;
+  @media (max-width: $fullhd) {
+    margin-bottom: 40px;
+  }
+}
+.recent-transacions {
+  width: 100%;
+  .header-title {
+    margin-bottom: 16px;
+  }
+  &__item {
+    width: calc(100% / 3);
+    font-size: 14px;
+    color: var(--shadow-blue);
+    padding-right: 10px;
+    &__title {
+      margin-bottom: 4px;
+    }
+    &__details {
+      color: black;
+      span {
+        margin-left: 8px;
+      }
+    }
+    // --shadow-blue:
+  }
+}

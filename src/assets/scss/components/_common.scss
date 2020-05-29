@@ -1,0 +1,64 @@
+.headerTitle14 {
+  @include headerTitle14;
+}
+
+.headerTitle16 {
+  @include headerTitle16;
+}
+
+.headerTitle18 {
+  @include headerTitle18;
+}
+
+.headerTitle20 {
+  @include headerTitle20;
+}
+
+.headerTitle24 {
+  @include headerTitle24;
+}
+
+.headerTitle28 {
+  @include headerTitle28;
+}
+
+.headerTitle30 {
+  @include headerTitle30;
+}
+
+.headerTitle32 {
+  @include headerTitle32;
+}
+
+// helper classes
+.d-flex {
+  display: flex;
+}
+.d-align-center {
+  align-items: center;
+}
+.d-content-center {
+  justify-content: center;
+}
+.d-content-between {
+  justify-content: space-between;
+}
+.d-flex-column {
+  flex-direction: column;
+}
+
+.wise-app-header {
+  padding: 0;
+  margin-bottom: 56px;
+}
+
+// card colors
+.is-warning {
+  color: var(--warningOrange);
+}
+.is-success {
+  color: var(--almond-green);
+}
+.is-default {
+  color: var(--shadow-blue);
+}

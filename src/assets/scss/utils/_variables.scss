@@ -1,0 +1,44 @@
+// COLORS
+
+// Red colors
+$red: #ff1156;
+
+// Dark colors
+$dark-color-1: #303133;
+$dark-color-2: #606266;
+$dark-color-3: #909399;
+$dark-color-4: #c0c4cc;
+$dark-color: #0b0b0c;
+
+$warningOrange: #ff6100;
+$cornflowerBlue: #7a51f0;
+
+:root {
+  // Colors
+  --dark-color-7: #90909e;
+  --dark-color-primary: #0b0b0c;
+  --shadow-blue: #6c83a1;
+  --red: #ff1156;
+  --warningOrange: #ff6100;
+  --cornflowerBlue: #7a51f0;
+  --almond-green: #29b419;
+  --light-grey: #f5f7f9;
+  --light-grey-1: #d8d8d8;
+  --shadow-2: 0 0 17px 0 rgba(0, 0, 0, 0.15);
+
+  // Radius
+  --base-radius: 4px;
+}
+
+//
+// SHADOWS
+//
+$shadow-1: 0 0 16px 0 rgba(0, 0, 0, 0.2);
+$shadow-2: 0 0 17px 0 rgba(0, 0, 0, 0.15);
+
+// breakpoint
+$mobile: 768px;
+$tablet: 769px;
+$desktop: 1024px;
+$widescreen: 1216px;
+$fullhd: 1336px;

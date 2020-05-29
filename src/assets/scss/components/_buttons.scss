@@ -1,0 +1,14 @@
+.el-button {
+  &--block {
+    width: 100%;
+  }
+  &--dotted {
+    border: 1.5px dotted $red;
+  }
+  &--outlined {
+    background-color: transparent;
+  }
+  &--is-plain {
+    background-color: transparent;
+  }
+}

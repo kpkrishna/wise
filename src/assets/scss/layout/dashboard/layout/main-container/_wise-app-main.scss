@@ -1,0 +1,16 @@
+// common layouts
+
+.wise-app-container {
+  padding-left: 248px;
+  position: relative;
+
+  .wise-app-main {
+    max-width: 100%;
+    padding: 59px 64px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    @media (max-width: $fullhd) {
+      padding: 50px;
+    }
+  }
+}

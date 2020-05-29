@@ -1,0 +1,19 @@
+.el-tag {
+  &--card-tag {
+    height: 22px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+  &.el-tag {
+    &--primary {
+      background-color: rgba($red, 0.13);
+      color: $red;
+      border: none;
+    }
+    &--info {
+      background-color: rgba($cornflowerBlue, 0.13);
+      color: $cornflowerBlue;
+      border: none;
+    }
+  }
+}

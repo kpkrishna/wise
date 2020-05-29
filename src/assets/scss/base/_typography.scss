@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "CircularPREWeb";
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Light.eot");
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Light.woff")
+      format("woff"),
+    url("~@/assets/fonts/CircularPre/CircularPREWeb-Light.woff2")
+      format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "CircularPREWeb";
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Medium.eot");
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Medium.woff")
+      format("woff"),
+    url("~@/assets/fonts/CircularPre/CircularPREWeb-Medium.woff2")
+      format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "CircularPREWeb";
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Black.eot");
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Black.woff")
+      format("woff"),
+    url("~@/assets/fonts/CircularPre/CircularPREWeb-Black.woff2")
+      format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "CircularPREWeb";
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Bold.eot");
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Bold.woff")
+      format("woff"),
+    url("~@/assets/fonts/CircularPre/CircularPREWeb-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "CircularPREWeb";
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Book.eot");
+  src: url("~@/assets/fonts/CircularPre/CircularPREWeb-Book.woff")
+      format("woff"),
+    url("~@/assets/fonts/CircularPre/CircularPREWeb-Book.woff2") format("woff2");
+  font-weight: 400;
+}
+
+// ==========================================================================
+// Headers
+// ==========================================================================
+
+@mixin headerTitle14($weight: 700) {
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle16($weight: 700) {
+  font-size: 16px;
+  line-height: 24px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle18($weight: 700) {
+  font-size: 18px;
+  line-height: 24px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle20($weight: 700) {
+  font-size: 20px;
+  line-height: 26px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle24($weight: 700) {
+  font-size: 24px;
+  line-height: 34px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle28($weight: 700) {
+  font-size: 28px;
+  line-height: 35px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle30($weight: 700) {
+  font-size: 30px;
+  line-height: 36px;
+  color: $dark-color;
+  font-weight: $weight;
+}
+@mixin headerTitle32($weight: 700) {
+  font-size: 32px;
+  line-height: 36px;
+  color: $dark-color;
+  font-weight: $weight;
+}
